@@ -1,0 +1,54 @@
+For M = 10, N = 10:
+Erosion GPU execution time: 0.081920 ms
+Erosion CPU execution time: 0.000000 ms
+Dilation GPU execution time: 0.082016 ms
+Dilation CPU execution time: 0.000000 ms
+Erosion GPU (shared memory) execution time: 0.038752 ms
+Dilation GPU (shared memory) execution time: 0.168800 ms
+Opening CPU execution time: 0.000000 ms
+Opening GPU execution time: 0.092160 ms
+Opening GPU (shared memory) execution time: 0.039936 ms
+Closing CPU execution time: 1.000000 ms 
+Closing GPU execution time: 0.097280 ms 
+Closing GPU (shared memory) execution time: 0.039936 ms 
+Sharpen CPU execution time: 0.000000 ms
+Sharpen GPU  execution time: 0.055104 ms
+Blur CPU execution time: 0.000000 ms
+Blur GPU  execution time: 0.055296 ms
+
+For M = 200, N = 200:
+Erosion GPU execution time: 0.070656 ms 
+Erosion CPU execution time: 3.000000 ms
+Dilation GPU execution time: 0.062496 ms
+Dilation CPU execution time: 3.000000 ms
+Erosion GPU (shared memory) execution time: 0.062464 ms
+Dilation GPU (shared memory) execution time: 0.253952 ms
+Opening CPU execution time: 4.000000 ms
+Opening GPU execution time: 0.107520 ms
+Opening GPU (shared memory) execution time: 0.089088 ms
+Closing CPU execution time: 3.000000 ms 
+Closing GPU execution time: 0.151648 ms                                  Closing GPU (shared memory) execution time: 0.090016 ms                  Sharpen CPU execution time: 4.000000 ms                                  Sharpen GPU  execution time: 0.072736 ms                                 Blur CPU execution time: 2.000000 ms
+Blur GPU  execution time: 0.088064 ms 
+
+For M = 400, N = 400:
+Erosion GPU execution time: 0.165888 ms
+Erosion CPU execution time: 11.000000 ms                                 Dilation GPU execution time: 0.180224 ms                                 Dilation CPU execution time: 12.000000 ms                                Erosion GPU (shared memory) execution time: 0.153600 ms                  Dilation GPU (shared memory) execution time: 0.502784 ms                 Opening CPU execution time: 13.000000 ms                                 Opening GPU execution time: 0.230400 ms                                  Opening GPU (shared memory) execution time: 0.278528 ms                  Closing CPU execution time: 13.000000 ms                                 Closing GPU execution time: 0.231424 ms                                  Closing GPU (shared memory) execution time: 0.276640 ms                  Sharpen CPU execution time: 13.000000 ms                                 Sharpen GPU  execution time: 0.153600 ms                                 Blur CPU execution time: 7.000000 ms                                     Blur GPU  execution time: 0.152576 ms 
+
+For M = 1024, N = 1024:
+Erosion GPU execution time: 0.539648 ms
+Erosion CPU execution time: 68.000000 ms 
+Dilation GPU execution time: 0.519328 ms
+Dilation CPU execution time: 68.000000 ms
+Erosion GPU (shared memory) execution time: 0.838656 ms
+Dilation GPU (shared memory) execution time: 1.841152 ms
+Opening CPU execution time: 88.000000 ms
+Opening GPU execution time: 0.983040 ms
+Opening GPU (shared memory) execution time: 1.614848 ms
+Closing CPU execution time: 89.000000 ms
+Closing GPU execution time: 0.997408 ms
+Closing GPU (shared memory) execution time: 1.616896 ms 
+Sharpen CPU execution time: 87.000000 ms
+Sharpen GPU  execution time: 0.460960 ms
+Blur CPU execution time: 89.000000 ms
+Blur GPU  execution time: 0.550912 ms 
+
